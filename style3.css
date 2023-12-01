@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #0B0E17;
+    background-repeat: no-repeat;
+    background-size: 82.5%;
+    background-image: url(./starter-code/assets/crew/background-crew-desktop.jpg);
+
+}
+#content #banner #douglas{
+    margin: -570px 0px 0px 900px;
+    width: 30%;
+}
+#content #banner #texto{
+ 
+    margin-top: 97px;
+    margin-left: 163px;
+}
+#content #banner #texto #titulo{
+    font-size: 28px;
+    margin-bottom: 150px;
+    color: #FFFFFF;
+}
+#content #banner #texto #titulo b{
+    color: #50555E;
+}
+#content #banner #texto  #subtitulo{
+    font-size: 33px;
+    margin-bottom: 13px;
+    color: #93959A;
+}
+#content #banner #texto #titulo2{
+    font-size: 55px;
+    margin-bottom: 13px;
+    color: #FFFFFF;
+}
+ #banner #texto #descripcion{
+    font-size: 19px;
+    width: 29%;
+    line-height: 30px;
+    color: #ACB1CF;
+
+}
+#banner #texto #puntos{
+   display: flex;
+   text-align-last: auto;
+   
+    font-size: 130px
+;
+   
+   
+}
+
+#banner #texto #puntos li a{
+    
+    text-decoration: none;
+    margin-right: 30px;
+    
+  
+    
+
+ }
+#banner #texto #puntos li{
+    list-style: none;
+    background-color: #34373E;
+    width: 15px;
+    height: 15px;
+    margin-top: 116px;
+    margin-left: 14px;
+    margin-right: 6px;
+    border-radius: 100%;
+  
+}
+/* #banner #texto #puntos li:nth-child(1){
+    border-bottom: 2px solid white;
+} */
+
+
+/* #menu li a :hover{
+    border-bottom: 2px solid rgb(208, 10, 10);
+
+}  */
+#banner #texto #puntos li a{
+    color: #0B0E17;
+    text-decoration: none;
+    margin-right: 30px;
+    
+
+ }
+
+#banner #texto #puntos li:hover{
+    background-color: #FFFFFF;
+    
+}
+#banner #texto #puntos  li:first-child{
+    background-color: #FFFFFF;
+
+}
+
+
+
+

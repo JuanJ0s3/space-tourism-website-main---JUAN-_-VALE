@@ -1,0 +1,51 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+ 
+}
+#logo{
+    margin-top: 9px;
+    margin-left: 29px;
+    
+}
+hr{
+    margin-top: 31px; 
+    width: 23%; 
+    position: absolute;
+    left: 160px; 
+    color: #B5B1AA;
+}
+header #menu{
+    height: 87.3px;
+    width: 58.3%; 
+    display: flex;
+    align-items: center;     
+    list-style: none;
+    background-color: #ffffff0d;
+    
+    
+} 
+
+#menu li a {
+    
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;
+    margin-right: 25px;
+    
+   
+
+    
+
+}
+ #menu li:nth-child(1){
+    border-bottom: 2px solid white;
+
+
+} 
+#menu li a :hover{
+    border-bottom: 2px solid rgb(208, 10, 10);
+
+} 

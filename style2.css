@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+body{
+    
+    background-size: cover;
+    background-image: url(./starter-code/assets/destination/background-destination-desktop.jpg);
+}
+
+section #banner #titulo{
+  
+    
+    letter-spacing: 0.px;
+    color: #FFFFFF;
+    margin: -18px 30px 20px 140px;
+    font-size: 25px
+    
+}
+#banner img{
+    width: 450px;
+    margin: 70px 0px 0px 170px;
+    
+}
+#content #banner{
+    margin: 112px 0px -3px 37px;
+}
+
+/* ASIDE */
+aside{
+    
+}
+aside #info{
+    margin: -485px 0px 0px 935px;
+    
+}
+aside #info #menu2{
+    margin-left: -70px;
+    margin-bottom: -9px;
+    display: flex;
+    text-decoration: none; 
+}
+aside #menu2 li a {
+    
+    color: white;
+    text-decoration: none; 
+   
+    font-size: 18px;
+    margin-left: 28px;
+}
+aside #menu2 li{
+    list-style: none;
+}
+
+aside #info #linea2{
+    margin: -15px 0px 0px 777px;
+    width: 22.5%; 
+}
+
+
+
+
+
+#info .spa{
+    
+    margin-top: 55px;
+    margin-bottom: 50px;
+    /* font-family: 'Bellefair'; */
+    font-weight: 19;
+    font-size: 97px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#info #informacion{
+    color: #ACB1CF;
+    margin-bottom: 68px;
+    font-size: 20px;
+    width: 400px;
+    line-height: 25px
+
+}
+
+#info #datos{
+  
+    display: flex;
+    width: 500px;
+    font-size: 12px;
+
+}
+#info #datos #dato p{
+    color: #ACB1CF;
+    font-size: 22px;
+    margin-right: 79.2px;
+   
+}
+#info #datos #dato h1{
+    color: #EEEAE6;
+    font-size: 22px;
+    margin-right: 79.2px;
+   
+}

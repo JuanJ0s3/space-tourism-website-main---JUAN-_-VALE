@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+body{
+    background-size: cover;
+    background-image: url(./starter-code/assets/home/background-home-desktop.jpg)
+    
+}
+#container{
+    /* margin:  0 auto; */
+    width: 100%;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+ 
+}
+#logo{
+    margin-top: 9px;
+    margin-left: 29px;
+    
+}
+hr{
+    margin-top: 31px; 
+    width: 23%; 
+    position: absolute;
+    left: 160px; 
+    color: #B5B1AA;
+}
+header #menu{
+    height: 87.3px;
+    width: 58.3%; 
+    display: flex;
+    align-items: center;     
+    list-style: none;
+    background-color: #ffffff0d;
+    
+    
+} 
+
+#menu li a {
+    
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;
+    margin-right: 25px;
+    
+   
+
+    
+
+}
+ #menu li:nth-child(1){
+    border-bottom: 2px solid white;
+
+
+} 
+#menu li a :hover{
+    border-bottom: 2px solid rgb(208, 10, 10);
+
+} 
+
+/* content_section */
+#content{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 346px 250px 150px 170px;
+}
+#content section{
+    width: 60%;
+}
+#content aside{
+    margin: 50px; 
+}
+#content #texto{
+    margin: -102px 100px 100px -3px;
+}
+#texto #titulo{
+    color: #ACB1CF;
+    font-size: 27px;
+    line-height: 60px 
+}
+#texto p{
+    margin-top: 37px;
+    margin-bottom: 53.4px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    line-height: 130px ;
+    font-size: 153px;
+    color: #FFFFFF;
+}
+#texto #descripcion{
+    color: #ACB1CF;
+    margin-top: 36px;
+    width: 62%;
+    font-size: 18px;
+    line-height: 30px
+}
+#btnaside{
+   border-radius: 200%;
+   width: 272px;
+   height: 272px;
+   margin: -21px 60px 0px 0px;
+    border: none;
+    font-size: 25px;
+}
